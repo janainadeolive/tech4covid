@@ -18,10 +18,10 @@ export default () => {
       <section>
         <div className='container'>
 
-          <div className={styles.cards}>
+          <div className={`${styles.cards} row`}>
             {
               results.map((r) => (
-                <div className={styles.card}>
+                <div className={`${styles.card} col-xs-12 col-sm-8 col-md-6 col-lg-4`}>
                   <h1>{r.name}</h1>
                   <p>{r.description}</p>
                   <a href={`https://atados.com.br/vaga/${r.slug}`}>Acessar</a>

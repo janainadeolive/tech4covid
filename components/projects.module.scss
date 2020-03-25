@@ -1,13 +1,14 @@
 $color: yellow;
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+  // align-items: center;
 }
 
 .card {
   background: $color;
-  flex: 0 1 20vw;
+  border: 2px solid blue;
+  // flex: 0 1 30vw;
 }
