@@ -4,6 +4,7 @@
 // variables
 $backgroundColor: #fff;
 
+
 *,
 *::before,
 *::after { 
@@ -13,13 +14,15 @@ $backgroundColor: #fff;
 html, body {
   font-family: sans-serif;
   font-size: 16px;
+  line-height: 1.4;
 }
 
 .app {
   background-color: $backgroundColor;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1200px;
+
+// helpers
+.h-text-center {
+  text-align: center !important;
 }

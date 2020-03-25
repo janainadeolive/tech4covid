@@ -14,24 +14,31 @@ export default () => {
   }, [])
 
   return (
-    <section className='projects'>
-      <section>
-        <div className='container'>
+    <section className={styles.projects}>
+      <div className={styles.projects__wrapper}>
 
-          <div className={`${styles.cards} row`}>
+        <div className='h-text-center'>
+          <h2 className={styles.projects__title}>Projetos em Curso</h2>
+          <p className={styles.projects__subtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget lectus luctus, venenatis nisl eu, dignissim ex proin vitae velit in ligula iaculis</p>
+        </div>
+
+        <div class='container-fluid'>
+          <div className={`${styles.projects__cards} row center-xs middle-xs between-lg`}>
             {
               results.map((r) => (
-                <div className={`${styles.card} col-xs-12 col-sm-8 col-md-6 col-lg-4`}>
-                  <h1>{r.name}</h1>
-                  <p>{r.description}</p>
-                  <a href={`https://atados.com.br/vaga/${r.slug}`}>Acessar</a>
+                <div className={`${styles.projects__card} col-xs-12 col-sm-8 col-md-6 col-lg-4`}>
+                  <div>
+                    <h3>{r.name}</h3>
+                    <p>{r.description}</p>
+                    <a target='_blank' href={`https://atados.com.br/vaga/${r.slug}`}>Acessar</a>
+                  </div>
                 </div>
               ))
             }
           </div>
-
         </div>
-      </section>
+
+      </div>
     </section>
   )
 }
