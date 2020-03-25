@@ -6,7 +6,6 @@ export default () => {
 
   useEffect(() => {
     (async function () {
-      console.log('fetching')
       const response = await fetch('https://v2.api.atados.com.br/search/projects/')
       const json = await response.json()
       setResults(json.results)
@@ -22,7 +21,7 @@ export default () => {
           <p className={styles.projects__subtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget lectus luctus, venenatis nisl eu, dignissim ex proin vitae velit in ligula iaculis</p>
         </div>
 
-        <div class='container-fluid'>
+        <div className={'container-fluid'}>
           <div className={`${styles.projects__cards} row center-xs middle-xs between-lg`}>
             {
               results.map((r) => (
