@@ -17,7 +17,7 @@ export default () => {
       <div className={styles.projects__wrapper}>
 
         <div className='u-text-center'>
-          <h2 className={styles.projects__title}>Projetos em Curso</h2>
+          <h2 className={`${styles.projects__title} u-text-uppercase`}>Projetos em Curso</h2>
           <p className={styles.projects__subtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget lectus luctus, venenatis nisl eu, dignissim ex proin vitae velit in ligula iaculis</p>
         </div>
 
