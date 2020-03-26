@@ -1,28 +1,10 @@
-// Global Styles
-@import './reset.scss';
+@import './styles/config/reset.scss';
+// @import './styles/config/vari
+@import './styles/config/base.scss';
+@import './styles/config/utils.scss';
 
-// variables
-$backgroundColor: #fff;
+// $primary-color: #EB5867;
 
-
-*,
-*::before,
-*::after { 
-  box-sizing: border-box;
-}
-
-html, body {
-  font-family: sans-serif;
-  font-size: 16px;
-  line-height: 1.4;
-}
-
-.app {
-  background-color: $backgroundColor;
-}
-
-
-// helpers
-.h-text-center {
-  text-align: center !important;
-}
+// $text-dark: #303030;
+// $text-light: #3d3d3d;
+// $text-clean: #ffffff;

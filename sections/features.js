@@ -1,4 +1,4 @@
-import styles from './features.module.scss'
+import styles from '../styles/features.module.scss'
 
 export default () => {
   
