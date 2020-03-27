@@ -1,0 +1,36 @@
+.header {
+    padding: 20px;
+
+    @media (max-width: 767px) {
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .logo {
+        transition: all 200ms; 
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        img {
+            max-height: 70px;
+            
+            @media (max-width: 767px) {
+                max-height: 50px;
+                margin-bottom: 15px;
+            }
+        }
+    }  
+
+    .right {
+        @media (min-width: 768px) {
+            text-align: right;
+        }
+    }
+}
