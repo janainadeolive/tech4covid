@@ -1,4 +1,5 @@
 import styles from '../styles/help-us.module.scss'
+import Button from '../components/button'
 
 export default () => {
   
@@ -13,7 +14,7 @@ export default () => {
           </div>
 
           <div className={`col-xs-12 col-sm-6 ${styles.right}`}>
-            <a className='btn' href='#'>Quero fazer uma doação!</a>
+            <Button modifiers='bg-transparent white-outline' name='Quero fazer uma doação!' href='/' />
           </div>
 
         </div>

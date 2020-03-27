@@ -22,3 +22,23 @@
         box-shadow: 0 2px 8px 0 rgba(136,144,195,0.22), 0 8px 15px 0 rgba(37,44,97,0.17);
     }
 }
+
+// modifiers
+.button.bg-transparent {
+    background-color: transparent;
+}
+
+.button.white-outline {
+    border-color: #fff;
+    color: #fff;
+}
+
+.button.red-outline {
+    border-color: #EB5867;
+    color: #EB5867;
+}
+
+.button.black-outline {
+    border-color: #000000;
+    color: #000000;
+}

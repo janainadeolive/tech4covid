@@ -1,7 +1,7 @@
-export default ({ name, href }) => {
+export default ({ name, href, modifiers }) => {
 
     return (
-        <a className={`button`} href={`${href}`}>
+        <a className={`button ${modifiers}`} href={`${href}`}>
             {name}
         </a>
     )
