@@ -14,18 +14,18 @@ export default () => {
 
   return (
     <section className={styles.projects}>
-      <div className={styles.projects__wrapper}>
+      <div className={styles.wrapper}>
 
         <div className='u-text-center'>
-          <h2 className={`${styles.projects__title} u-text-uppercase`}>Projetos em Curso</h2>
-          <p className={styles.projects__subtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget lectus luctus, venenatis nisl eu, dignissim ex proin vitae velit in ligula iaculis</p>
+          <h2 className={`${styles.title}`}>Projetos em Curso</h2>
+          <p className={styles.subtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget lectus luctus, venenatis nisl eu, dignissim ex</p>
         </div>
 
-        <div className={'container-fluid'}>
-          <div className={`${styles.projects__cards} row center-xs middle-xs between-lg`}>
+        <div className={`${styles.wrapper}`}>
+          <div className={`${styles.cards}`}>
             {
               results.map((r) => (
-                <div className={`${styles.projects__card} col-xs-12 col-sm-8 col-md-6 col-lg-4`}>
+                <div className={`${styles.card}`}>
                   <div>
                     <h3>{r.name}</h3>
                     <p>{r.description}</p>

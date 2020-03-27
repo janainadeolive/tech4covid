@@ -12,6 +12,6 @@ export default () => (
     <HelpUs />
     <Features />
     <Ongoing />
-    {/* <Projects /> */}
+    <Projects />
   </div>
 )
