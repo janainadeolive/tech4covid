@@ -1,16 +1,22 @@
 import styles from '../styles/projects.module.scss'
 import React, { useEffect, useState } from 'react'
+import projects from '../data/projects'
 
 export default () => {
-  const [results, setResults] = useState([])
+  /* **********
+  Por hora foram retiradas as vagas do Atados, em breve adicionaremos
+  estas vagas também
+  ************ */
 
-  useEffect(() => {
-    (async function () {
-      const response = await fetch('https://v2.api.atados.com.br/search/projects/')
-      const json = await response.json()
-      setResults(json.results)
-    })()
-  }, [])
+  // const [results, setResults] = useState([])
+
+  // useEffect(() => {
+  //   (async function () {
+  //     const response = await fetch('https://v2.api.atados.com.br/search/projects/')
+  //     const json = await response.json()
+  //     setResults(json.results)
+  //   })()
+  // }, [])
 
   return (
     <section className={styles.projects}>
@@ -24,12 +30,13 @@ export default () => {
         <div className={`${styles.wrapper}`}>
           <div className={`${styles.cards}`}>
             {
-              results.map((r) => (
+              projects.map((r) => (
                 <div className={`${styles.card}`}>
                   <div>
-                    <h3>{r.name}</h3>
+                    <h3>{r.title}</h3>
                     <p>{r.description}</p>
-                    <a target='_blank' href={`https://atados.com.br/vaga/${r.slug}`}>Acessar</a>
+                    <p><a target='_blank' href={`https://atados.com.br/vaga/`}>Já tenho um projeto</a></p>
+                    <p><a target='_blank' href={`https://atados.com.br/vaga/`}>Gostaria de ajudar um projeto</a></p>
                   </div>
                 </div>
               ))

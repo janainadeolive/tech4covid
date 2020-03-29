@@ -2,7 +2,6 @@ import styles from '../styles/header.module.scss'
 import Button from '../components/button'
 
 export default () => {
-
     return (
         <section className={styles.header}>
             <div className={styles.wrapper}>
