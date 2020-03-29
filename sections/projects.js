@@ -19,7 +19,7 @@ export default () => {
   // }, [])
 
   return (
-    <section className={styles.projects}>
+    <section className={styles.projects} id="projects">
       <div className={styles.wrapper}>
 
         <div className='u-text-center'>

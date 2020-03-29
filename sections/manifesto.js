@@ -2,7 +2,7 @@ import styles from '../styles/manifesto.module.scss'
 
 export default () => {
     return (
-        <section className={styles.manifesto}>
+        <section className={styles.manifesto} id="manifest">
             <div className={styles.wrapper}>
               <div className='u-text-left'>
                 <h2 className={`${styles.title}`}>Manifesto Tech 4 CONVID 19 BR</h2>

@@ -13,9 +13,8 @@ export default () => {
                         <p>Ut id tincidunt erat. Donec eu orci ac ex imperdiet ornare. Maecenas nec varius purus. Morbi ac urna tellus. Vestibulum ante ipsum primis in faucibus.</p>
 
                         <ul>
-                            <li><Button modifiers='' name='Junte-se a nós' href='/'/></li>
-                            <li><Button modifiers='bg-transparent red-outline' name='Manifesto' href='/'/></li>
-                            <li><Button modifiers='bg-transparent black-outline' name='Projetos' href='/'/></li>
+                            <li><Button modifiers='' name='Junte-se a nós' href='/#projects'/></li>
+                            <li><Button modifiers='bg-transparent red-outline' name='Manifesto' href='/#manifest'/></li>
                         </ul>
                     </div>
 

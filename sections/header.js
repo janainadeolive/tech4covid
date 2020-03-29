@@ -14,7 +14,7 @@ export default () => {
                     </div>
 
                     <div className={`col-xs-12 col-sm-6 ${styles.right}`}>
-                        <Button modifiers='' name='Junte-se a nós' href='/' />
+                        <Button modifiers='' name='Junte-se a nós' href='/#projects' />
                     </div>
 
                 </div>
