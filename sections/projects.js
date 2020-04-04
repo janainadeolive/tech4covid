@@ -35,8 +35,8 @@ export default () => {
                   <div>
                     <h3>{r.title}</h3>
                     <p>{r.description}</p>
-                    <p><a target='_blank' href="">Já tenho um projeto</a></p>
-                    <p><a target='_blank' href="">Gostaria de ajudar um projeto</a></p>
+                    <p><a target='_blank' href="https://docs.google.com/forms/d/11sHTlqdr3bCbkEVgxcxW3aufTZUvXNya_3f8XyivDyk/edit">Busco recursos para meu projeto</a></p>
+                    <p><a target='_blank' href="https://docs.google.com/forms/d/1BYzheWwjpox0WthLa96jNpLmNYMWy_YgEuPM4QfBC3I/edit">Gostaria de ajudar um projeto</a></p>
                   </div>
                 </div>
               ))
