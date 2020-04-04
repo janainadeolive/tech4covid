@@ -23,8 +23,8 @@ export default () => {
       <div className={styles.wrapper}>
 
         <div className='u-text-center'>
-          <h2 className={`${styles.title}`}>Projetos em Curso</h2>
-          <p className={styles.subtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget lectus luctus, venenatis nisl eu, dignissim ex</p>
+          <h2 className={`${styles.title}`}>Iniciativas em Curso</h2>
+          <p className={styles.subtitle}>Junte sua iniciativa a nossa rede ou contribua com uma doação ou trabalho voluntário</p>
         </div>
 
         <div className={`${styles.wrapper}`}>
