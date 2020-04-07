@@ -9,7 +9,7 @@ export default () => {
 
                     <div className='col-xs-12 col-sm-6'>
                         <a className={styles.logo} href='/'>
-                            <img src="https://ucarecdn.com/e2cfb782-1524-496a-a48f-f97b75440d56/" alt="Logo" />
+                            <img src="/tech4covidbr.png" alt="Logo" />
                         </a>
                     </div>
 
