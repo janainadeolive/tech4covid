@@ -9,8 +9,8 @@ export default () => {
                 <div className='row between-md middle-xs'>
 
                     <div className='col-xs-12 col-md-6'>
-                        <h1>A comunidade tecnológica combate a Covid-19.</h1>
-                        <p>Ut id tincidunt erat. Donec eu orci ac ex imperdiet ornare. Maecenas nec varius purus. Morbi ac urna tellus. Vestibulum ante ipsum primis in faucibus.</p>
+                        <h1>Uma comunidade para combater a COVID- 19</h1>
+                        <p>Inspirados pelo movimento português, criamos uma comunidade de pessoas que utilizam suas habilidades para impedir o avanço do corona vírus no país.</p>
 
                         <ul>
                             <li><Button modifiers='' name='Junte-se a nós' href='/#projects'/></li>
